@@ -1,0 +1,45 @@
+@import "../common/weui.wxss";
+.container{
+    box-sizing: border-box;
+  padding: 0 0 0 0;
+}
+.user{
+  color: #b2b2b2;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.type-row{
+  height: 85rpx;
+  background-color:#fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom:1rpx solid #ddd;
+  justify-content: space-between;
+}
+
+.type-item{
+  position:absolute;height:85rpx;background-color:#fff;width:100%;
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+}
+.type-item-name{
+  margin-left: 15px;
+}
+.delete-box{
+  background-color: #e64340;
+  color: #fff;
+  height: 100%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}

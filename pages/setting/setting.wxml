@@ -1,0 +1,35 @@
+
+<!--logs.wxml-->
+<view class="container">
+  <view class="page">
+    <view class="weui-cells__title">关于</view>
+    <view class="weui-cells weui-cells_after-title">
+      <navigator url="../about/about" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">关于</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+
+ <view class="weui-cells__title">小工具</view>
+    <view class="weui-cells weui-cells_after-title">
+      <navigator url="../qrcode/qrcode" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">二维码生成</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+
+    <view class="weui-cells__title">我的昵称</view>
+       <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="user">
+        <text>{{userInfo.nickName}}</text>
+    </view>
+    </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title" style="margin-top:1em">
+      <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd reset-button" bindtap="resetMiniApp" >重置小程序</view>
+      </view>
+    </view>
+  </view>
+</view>

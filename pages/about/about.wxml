@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="page">
+    <view class="page__bd">
+      <view class="weui-article">
+        <view class="weui-article__section">
+          <view class="weui-article__title">关于：</view>
+          <view class="weui-article__section">
+            <view class="weui-article__p">“流光容易把人抛” 时间总是在不经意间流逝。使用“留”光，帮你养成好习惯，充分利用时间。by对对队
+            </view>
+            <view class="weui-article__p">
+             mail : 1085508971@qq.com
+            </view>
+          </view>
+          <view class="weui-article__section" style="background:">
+            <view class="weui-article__p">
+              如果喜欢这款小程序，也可以扫描二维码向我们捐助
+            </view>
+            <view class="pay-image-box">
+              <image src="../../images/pay.png"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

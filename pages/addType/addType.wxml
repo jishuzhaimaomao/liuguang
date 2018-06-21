@@ -1,0 +1,27 @@
+<view class="container-page">
+  <view class="page-body">
+    <form bindsubmit="formSubmit">
+      <view class="page-section">
+        <view class="weui-cells__title">项目名称</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <input class="weui-input" type="text" placeholder="请输入项目名称" bindinput="bindTypeNameInput" name="typeName" placeholder-style="{{typeNameInvalid?'color:red':''}}"/>
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="weui-cells__title">单位名称</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <input class="weui-input" type="text" placeholder="请输入单位名称" bindinput="bindTypeUnitInput" name="typeUnit"  placeholder-style="{{typeUnitInvalid?'color:red':''}}"/>
+          </view>
+        </view>
+      </view>
+      <view class="page-section padding-box">
+        <button type="primary"  formType="submit" class="ok">确定</button>
+        <button type="default" bindtap="cancleEvent">取消</button>
+      </view>
+    </form>
+
+  </view>
+</view>

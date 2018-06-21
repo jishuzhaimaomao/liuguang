@@ -1,0 +1,26 @@
+/* pages/logs/logs.wxss */
+@import "../common/weui.wxss";
+.container-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  box-sizing: border-box;
+} 
+.page-body {
+  width: 100%;
+  flex-grow: 1;
+  overflow-x: hidden;
+}
+.page-section{
+  margin-bottom: 20rpx;
+}
+.padding-box{
+    padding: 0 30rpx 0 30rpx
+}
+
+button.ok{
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,9 @@
+@import "../common/weui.wxss";
+page{
+    background-color: lightgrey;
+}
+
+.pay-image-box{
+    display: flex;
+    justify-content: center;
+}

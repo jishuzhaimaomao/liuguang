@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/record/record",
+    "pages/history/history",
+    "pages/historyDetail/historyDetail",
+    "pages/charts/charts",
+    "pages/setting/setting",
+     "pages/addType/addType",
+     "pages/qrcode/qrcode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#353535",
+    "navigationBarTitleText": "“留”光",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_green.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list_green.png"
+      },
+      {
+        "pagePath": "pages/charts/charts",
+        "text": "统计",
+        "iconPath": "images/tongji.png",
+        "selectedIconPath": "images/tongji_green.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "images/setting.png",
+        "selectedIconPath": "images/setting_green.png"
+      }
+    ],
+    "backgroundColor": "#ffffff"
+  }
+}

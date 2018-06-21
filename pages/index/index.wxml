@@ -1,0 +1,44 @@
+
+<!--index.wxml-->
+<view class="container" >
+  <view class="page-body">
+  <swiper class="swiper" indicator-dots="true"
+autoplay="true" interval="5000" 
+duration="1000">
+<block wx:for="{{movies}}"wx:for-index="index">
+<swiper-item>
+<image src="{{item.url}}" class="slide-image" mode="aspectFill">
+              </image>
+</swiper-item>
+</block>
+</swiper>
+    <view class="today-count">
+      <view class="today-box">
+        <text class="today">今日</text>
+        <text class="today-date">{{today}}</text>
+      </view>
+    <view wx:for="{{customTypes}}" wx:key="{{item.name}}" class="" bindtouchstart="touchStart" catchtouchmove="touchMove" bindtouchend="touchEnd" data-index="{{index}}" class="type-row">
+      <view class="type-item" style="left:{{item.offsetX}}px">
+        <view class="type-item-name">
+          {{item.name}}
+        </view>
+      </view>
+      <view class="delete-box" bindtap="deleteTypeEvent" data-index="{{index}}">
+        <view>删除</view>
+      </view>
+    </view>
+    <navigator class="type-row" url="../addType/addType">
+      <view class="type-item" style="left:0px">
+        <view class="type-item-name weui-cell_link">
+          添加新项目
+        </view>
+      </view>
+    </navigator>
+    </view>
+    <view class="record padding-box">
+      <navigator url="../record/record">
+        <button type="primary">记一次</button>
+      </navigator>
+    </view>
+  </view>
+</view>
