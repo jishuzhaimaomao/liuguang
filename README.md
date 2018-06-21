@@ -1,6 +1,11 @@
 #留光
 一个记录21天习惯的微信小程序  
-![](https://github.com/jishuzhaimaomao/liuguang1/master/images/babyweinai0.png)  
-![](https://github.com/kklldog/kklldog.github.io/blob/master/images/babyweinai1.jpg)  
-![](https://github.com/kklldog/kklldog.github.io/blob/master/images/babyweinai2.jpg)  
-![](https://github.com/kklldog/kklldog.github.io/blob/master/images/babyweinai3.jpg)  
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang9.png)  
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang1.png)  
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang2.png)  
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang3.png)  
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang4.png)
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang5.png)
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang6.png)
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang7.png)
+![](https://github.com/jishuzhaimaomao/liuguang1/blob/master/images/liuguang8.png)
